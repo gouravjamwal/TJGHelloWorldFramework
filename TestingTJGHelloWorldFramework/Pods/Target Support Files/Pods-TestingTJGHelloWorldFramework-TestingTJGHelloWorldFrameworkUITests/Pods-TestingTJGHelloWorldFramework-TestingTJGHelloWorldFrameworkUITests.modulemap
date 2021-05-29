@@ -1,0 +1,6 @@
+framework module Pods_TestingTJGHelloWorldFramework_TestingTJGHelloWorldFrameworkUITests {
+  umbrella header "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TestingTJGHelloWorldFramework_TestingTJGHelloWorldFrameworkUITests : NSObject
+@end
+@implementation PodsDummy_Pods_TestingTJGHelloWorldFramework_TestingTJGHelloWorldFrameworkUITests
+@end

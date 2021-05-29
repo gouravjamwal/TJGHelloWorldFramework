@@ -1,0 +1,980 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D23E86EBD2F129D0BA675F973E06A0E /* Pods-TestingTJGHelloWorldFrameworkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A14D82B83185796B6A30EFC202A524 /* Pods-TestingTJGHelloWorldFrameworkTests-dummy.m */; };
+		288C60C0DEFE3962604081660B4D5E5E /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2431E01376DD1063FE2E8CBE578454 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F192DE10E1E828DD79E6174288D5D6 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1932311D954D83A979287FE25BC683EB /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-dummy.m */; };
+		5E2BEB272A034D5E53A35DECED2491ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		68929A865D8A37D422B70503D96B0D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7C36E323457A089501E72783DAE76DE1 /* Pods-TestingTJGHelloWorldFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE14BE961F78BD48342F48D118FA9BD /* Pods-TestingTJGHelloWorldFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B604089DA47433D2DBD6085B3B2CF145 /* Pods-TestingTJGHelloWorldFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 079080914A42FE5E3E7AF4A563078681 /* Pods-TestingTJGHelloWorldFramework-dummy.m */; };
+		C0FC96C61AF9EE259C347EDA48A6FA51 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5212805670BC3A5E06FF95371278A /* Service.swift */; };
+		C31CD47D835ED6BA4610039CE11F2E02 /* TJGHelloWorldFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F99A7260750F5343DCD64168FEBE0CBB /* TJGHelloWorldFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB12D5B4FDF7957B24FA2F7056C9ED35 /* TJGHelloWorldFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EB7B28946E45316111E248BE2DBD7 /* TJGHelloWorldFramework-dummy.m */; };
+		D0D32679C06A59A12477F722D66777A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D9D25F2306195A1ABE851E9801214EA6 /* Pods-TestingTJGHelloWorldFrameworkTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F868AF26075858FD10F9EE2A1646D644 /* Pods-TestingTJGHelloWorldFrameworkTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB74A92C36F43DC845FE5746566E34DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F34356F28ACFD79DDB856E7C7EFCD811 /* TJGHelloWorldFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 496BDD6DF75E36E3E1B1172DF322993A /* TJGHelloWorldFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		225844862F6C80B6FEF14BD722FC3451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150E0851C634CA1342CB8E9887F711F5;
+			remoteInfo = TJGHelloWorldFramework;
+		};
+		63E07340108BA1D6A4E320BCD93732E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150E0851C634CA1342CB8E9887F711F5;
+			remoteInfo = TJGHelloWorldFramework;
+		};
+		D9DC3A4E85A46E8AFE4FA1A89DFC253A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5E0D5C6DFF173E8D50287E8562672AF;
+			remoteInfo = "Pods-TestingTJGHelloWorldFramework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034848CEB62090A03A8E0C149E2EFA7A /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04FBF40E0687A5EB68A2E3C78A1ACE08 /* Pods_TestingTJGHelloWorldFramework_TestingTJGHelloWorldFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestingTJGHelloWorldFramework_TestingTJGHelloWorldFrameworkUITests.framework; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079080914A42FE5E3E7AF4A563078681 /* Pods-TestingTJGHelloWorldFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingTJGHelloWorldFramework-dummy.m"; sourceTree = "<group>"; };
+		1932311D954D83A979287FE25BC683EB /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-dummy.m"; sourceTree = "<group>"; };
+		1AEDDB332BD7CF7B56F70C0F574A48E3 /* TJGHelloWorldFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TJGHelloWorldFramework.framework; path = TJGHelloWorldFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF9AA61E2AB4D8B07C02931C5B4D292 /* Pods-TestingTJGHelloWorldFrameworkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingTJGHelloWorldFrameworkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F247B084868EBB34BBBD840C1B5D351 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		21DF243874B2363033833563BBF74798 /* Pods-TestingTJGHelloWorldFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingTJGHelloWorldFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2473B30AB76F95EB1367B81DF42C3C9C /* Pods-TestingTJGHelloWorldFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingTJGHelloWorldFramework.release.xcconfig"; sourceTree = "<group>"; };
+		2F64358B847EEA745F2EB7C2FF9099DD /* Pods_TestingTJGHelloWorldFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestingTJGHelloWorldFramework.framework; path = "Pods-TestingTJGHelloWorldFramework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34996D2822CE4D7B2AC625EF17E90C33 /* Pods-TestingTJGHelloWorldFramework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestingTJGHelloWorldFramework-frameworks.sh"; sourceTree = "<group>"; };
+		358513739CF3D91DD62BA1B547BF1F44 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3FC5B270B9A92CA1E283036EBC9E8511 /* Pods-TestingTJGHelloWorldFrameworkTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingTJGHelloWorldFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		4952FD968154C5A4B4270190591F1AD6 /* Pods-TestingTJGHelloWorldFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingTJGHelloWorldFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		496BDD6DF75E36E3E1B1172DF322993A /* TJGHelloWorldFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJGHelloWorldFramework.h; path = TJGHelloWorldFramework/TJGHelloWorldFramework.h; sourceTree = "<group>"; };
+		496F6BBA91481A14A9CDF541FD75074E /* Pods-TestingTJGHelloWorldFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingTJGHelloWorldFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C2431E01376DD1063FE2E8CBE578454 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-umbrella.h"; sourceTree = "<group>"; };
+		4EFAA826A210DD378C094C3B372392A4 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-Info.plist"; sourceTree = "<group>"; };
+		513901F20AFAFF05D834E3FB0A4498EA /* TJGHelloWorldFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJGHelloWorldFramework.debug.xcconfig; sourceTree = "<group>"; };
+		5C0AC1C1518B5EDAD7E1644DCEA3A0C3 /* Pods-TestingTJGHelloWorldFrameworkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingTJGHelloWorldFrameworkTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FC5212805670BC3A5E06FF95371278A /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = TJGHelloWorldFramework/Service.swift; sourceTree = "<group>"; };
+		68B64E1D0689F3ED0AC5128BC4085346 /* TJGHelloWorldFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TJGHelloWorldFramework.modulemap; sourceTree = "<group>"; };
+		6F3094BF1E63EC6F0AD4ED0592F2F2B9 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77CEF67FF3D69D0697C1CD050C393BD6 /* Pods-TestingTJGHelloWorldFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingTJGHelloWorldFramework-Info.plist"; sourceTree = "<group>"; };
+		7EBAAA11A363F71D57E536F972D77AC3 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.modulemap"; sourceTree = "<group>"; };
+		800DBE069DDC80D6B60E066B3A9F60A2 /* TJGHelloWorldFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TJGHelloWorldFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89F1C2768699BCF8C03D26367D970C24 /* TJGHelloWorldFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJGHelloWorldFramework.release.xcconfig; sourceTree = "<group>"; };
+		8C645181670524E90C532EBEB8E8E825 /* Pods-TestingTJGHelloWorldFrameworkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingTJGHelloWorldFrameworkTests.modulemap"; sourceTree = "<group>"; };
+		946EB7B28946E45316111E248BE2DBD7 /* TJGHelloWorldFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJGHelloWorldFramework-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA1CFA14DB066C303B00C5E828CF29E0 /* TJGHelloWorldFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TJGHelloWorldFramework-Info.plist"; sourceTree = "<group>"; };
+		AF94BD4791A53A93FAF2B67413D6813B /* Pods-TestingTJGHelloWorldFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingTJGHelloWorldFramework.modulemap"; sourceTree = "<group>"; };
+		BDE14BE961F78BD48342F48D118FA9BD /* Pods-TestingTJGHelloWorldFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingTJGHelloWorldFramework-umbrella.h"; sourceTree = "<group>"; };
+		C03D63C8E564707D2D5601E3AF030DC2 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8E8341DE5E18D6EDD18DFCCC7AE8ECB /* Pods-TestingTJGHelloWorldFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingTJGHelloWorldFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3DA070C8E6AA3E8EC7003C0C88D442C /* Pods_TestingTJGHelloWorldFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestingTJGHelloWorldFrameworkTests.framework; path = "Pods-TestingTJGHelloWorldFrameworkTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E18E0F6846C1CC553E70F28281B3E2 /* Pods-TestingTJGHelloWorldFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingTJGHelloWorldFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1B5D54ABC5948CED68523D663077FA6 /* TJGHelloWorldFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJGHelloWorldFramework-prefix.pch"; sourceTree = "<group>"; };
+		F868AF26075858FD10F9EE2A1646D644 /* Pods-TestingTJGHelloWorldFrameworkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingTJGHelloWorldFrameworkTests-umbrella.h"; sourceTree = "<group>"; };
+		F8A14D82B83185796B6A30EFC202A524 /* Pods-TestingTJGHelloWorldFrameworkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingTJGHelloWorldFrameworkTests-dummy.m"; sourceTree = "<group>"; };
+		F99A7260750F5343DCD64168FEBE0CBB /* TJGHelloWorldFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJGHelloWorldFramework-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0B1182C5C8E0377A39CA2330676C616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2BEB272A034D5E53A35DECED2491ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D489533B1A37535D69975DD0D0724D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB74A92C36F43DC845FE5746566E34DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA755EFA114720E53416613978D945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D32679C06A59A12477F722D66777A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ADD868F9FB1BACE5724A869315E292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68929A865D8A37D422B70503D96B0D35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FE1A40FF03F24A70DE1505E5C38DA04 /* Pods-TestingTJGHelloWorldFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C645181670524E90C532EBEB8E8E825 /* Pods-TestingTJGHelloWorldFrameworkTests.modulemap */,
+				1DF9AA61E2AB4D8B07C02931C5B4D292 /* Pods-TestingTJGHelloWorldFrameworkTests-acknowledgements.markdown */,
+				5C0AC1C1518B5EDAD7E1644DCEA3A0C3 /* Pods-TestingTJGHelloWorldFrameworkTests-acknowledgements.plist */,
+				F8A14D82B83185796B6A30EFC202A524 /* Pods-TestingTJGHelloWorldFrameworkTests-dummy.m */,
+				3FC5B270B9A92CA1E283036EBC9E8511 /* Pods-TestingTJGHelloWorldFrameworkTests-Info.plist */,
+				F868AF26075858FD10F9EE2A1646D644 /* Pods-TestingTJGHelloWorldFrameworkTests-umbrella.h */,
+				C8E8341DE5E18D6EDD18DFCCC7AE8ECB /* Pods-TestingTJGHelloWorldFrameworkTests.debug.xcconfig */,
+				496F6BBA91481A14A9CDF541FD75074E /* Pods-TestingTJGHelloWorldFrameworkTests.release.xcconfig */,
+			);
+			name = "Pods-TestingTJGHelloWorldFrameworkTests";
+			path = "Target Support Files/Pods-TestingTJGHelloWorldFrameworkTests";
+			sourceTree = "<group>";
+		};
+		516C6B1068EF8D475FB13A5906B58A71 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				800DBE069DDC80D6B60E066B3A9F60A2 /* TJGHelloWorldFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		780195C6DA5819AA55B334B7DE20BAE6 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EBAAA11A363F71D57E536F972D77AC3 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.modulemap */,
+				034848CEB62090A03A8E0C149E2EFA7A /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-acknowledgements.markdown */,
+				1F247B084868EBB34BBBD840C1B5D351 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-acknowledgements.plist */,
+				1932311D954D83A979287FE25BC683EB /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-dummy.m */,
+				358513739CF3D91DD62BA1B547BF1F44 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-frameworks.sh */,
+				4EFAA826A210DD378C094C3B372392A4 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-Info.plist */,
+				4C2431E01376DD1063FE2E8CBE578454 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-umbrella.h */,
+				6F3094BF1E63EC6F0AD4ED0592F2F2B9 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.debug.xcconfig */,
+				C03D63C8E564707D2D5601E3AF030DC2 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.release.xcconfig */,
+			);
+			name = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests";
+			path = "Target Support Files/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests";
+			sourceTree = "<group>";
+		};
+		85F75D79BEE2A7538075D910414659B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F64358B847EEA745F2EB7C2FF9099DD /* Pods_TestingTJGHelloWorldFramework.framework */,
+				04FBF40E0687A5EB68A2E3C78A1ACE08 /* Pods_TestingTJGHelloWorldFramework_TestingTJGHelloWorldFrameworkUITests.framework */,
+				E3DA070C8E6AA3E8EC7003C0C88D442C /* Pods_TestingTJGHelloWorldFrameworkTests.framework */,
+				1AEDDB332BD7CF7B56F70C0F574A48E3 /* TJGHelloWorldFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DCC68B2308CCAA6E6C61DAEA1EC4962 /* Pods-TestingTJGHelloWorldFramework */ = {
+			isa = PBXGroup;
+			children = (
+				AF94BD4791A53A93FAF2B67413D6813B /* Pods-TestingTJGHelloWorldFramework.modulemap */,
+				21DF243874B2363033833563BBF74798 /* Pods-TestingTJGHelloWorldFramework-acknowledgements.markdown */,
+				E6E18E0F6846C1CC553E70F28281B3E2 /* Pods-TestingTJGHelloWorldFramework-acknowledgements.plist */,
+				079080914A42FE5E3E7AF4A563078681 /* Pods-TestingTJGHelloWorldFramework-dummy.m */,
+				34996D2822CE4D7B2AC625EF17E90C33 /* Pods-TestingTJGHelloWorldFramework-frameworks.sh */,
+				77CEF67FF3D69D0697C1CD050C393BD6 /* Pods-TestingTJGHelloWorldFramework-Info.plist */,
+				BDE14BE961F78BD48342F48D118FA9BD /* Pods-TestingTJGHelloWorldFramework-umbrella.h */,
+				4952FD968154C5A4B4270190591F1AD6 /* Pods-TestingTJGHelloWorldFramework.debug.xcconfig */,
+				2473B30AB76F95EB1367B81DF42C3C9C /* Pods-TestingTJGHelloWorldFramework.release.xcconfig */,
+			);
+			name = "Pods-TestingTJGHelloWorldFramework";
+			path = "Target Support Files/Pods-TestingTJGHelloWorldFramework";
+			sourceTree = "<group>";
+		};
+		B4C31854489497CDFEE94E05CFAC520F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68B64E1D0689F3ED0AC5128BC4085346 /* TJGHelloWorldFramework.modulemap */,
+				946EB7B28946E45316111E248BE2DBD7 /* TJGHelloWorldFramework-dummy.m */,
+				AA1CFA14DB066C303B00C5E828CF29E0 /* TJGHelloWorldFramework-Info.plist */,
+				F1B5D54ABC5948CED68523D663077FA6 /* TJGHelloWorldFramework-prefix.pch */,
+				F99A7260750F5343DCD64168FEBE0CBB /* TJGHelloWorldFramework-umbrella.h */,
+				513901F20AFAFF05D834E3FB0A4498EA /* TJGHelloWorldFramework.debug.xcconfig */,
+				89F1C2768699BCF8C03D26367D970C24 /* TJGHelloWorldFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../TestingTJGHelloWorldFramework/Pods/Target Support Files/TJGHelloWorldFramework";
+			sourceTree = "<group>";
+		};
+		B7F44DB09E654F5A2D67B4A8D59BF9F0 /* TJGHelloWorldFramework */ = {
+			isa = PBXGroup;
+			children = (
+				5FC5212805670BC3A5E06FF95371278A /* Service.swift */,
+				496BDD6DF75E36E3E1B1172DF322993A /* TJGHelloWorldFramework.h */,
+				516C6B1068EF8D475FB13A5906B58A71 /* Pod */,
+				B4C31854489497CDFEE94E05CFAC520F /* Support Files */,
+			);
+			name = TJGHelloWorldFramework;
+			path = /Users/gjamwal/Documents/MyLearning/CustomFrameworks/TJGHelloWorld/TJGHelloWorldFramework/TJGHelloWorldFramework;
+			sourceTree = "<absolute>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FDB593152873592C003447B770918CD6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				85F75D79BEE2A7538075D910414659B7 /* Products */,
+				E66B73D683FBD1E672E66CD270EBCE8A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E66B73D683FBD1E672E66CD270EBCE8A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC68B2308CCAA6E6C61DAEA1EC4962 /* Pods-TestingTJGHelloWorldFramework */,
+				780195C6DA5819AA55B334B7DE20BAE6 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests */,
+				1FE1A40FF03F24A70DE1505E5C38DA04 /* Pods-TestingTJGHelloWorldFrameworkTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FDB593152873592C003447B770918CD6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7F44DB09E654F5A2D67B4A8D59BF9F0 /* TJGHelloWorldFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A21595A9A9D83D84D81ED24ECDEFC842 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D25F2306195A1ABE851E9801214EA6 /* Pods-TestingTJGHelloWorldFrameworkTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34E7656D635259631A330142064E4EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288C60C0DEFE3962604081660B4D5E5E /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66D2D7D8B1410A38E5021E9753DBCFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31CD47D835ED6BA4610039CE11F2E02 /* TJGHelloWorldFramework-umbrella.h in Headers */,
+				F34356F28ACFD79DDB856E7C7EFCD811 /* TJGHelloWorldFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3B9F7AFA037A8109D06DCB03D72F36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C36E323457A089501E72783DAE76DE1 /* Pods-TestingTJGHelloWorldFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		150E0851C634CA1342CB8E9887F711F5 /* TJGHelloWorldFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDA03F2E4596FF31BBB487AE04354ED /* Build configuration list for PBXNativeTarget "TJGHelloWorldFramework" */;
+			buildPhases = (
+				B66D2D7D8B1410A38E5021E9753DBCFB /* Headers */,
+				553441F49191ED391DC81FE49D546FF7 /* Sources */,
+				E7ADD868F9FB1BACE5724A869315E292 /* Frameworks */,
+				FA0E67A8934D544AA447CBA7E78B9421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJGHelloWorldFramework;
+			productName = TJGHelloWorldFramework;
+			productReference = 1AEDDB332BD7CF7B56F70C0F574A48E3 /* TJGHelloWorldFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37F1B2D5F2D2D0B4F6C2852A738F0904 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58D5209728006CCFBDC484261C42884 /* Build configuration list for PBXNativeTarget "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests" */;
+			buildPhases = (
+				A34E7656D635259631A330142064E4EA /* Headers */,
+				CA2AFD01B0C5B237C5702DB75F4E172A /* Sources */,
+				A0B1182C5C8E0377A39CA2330676C616 /* Frameworks */,
+				24FD7D51CB1DD2FE1A586BFF8BCCF6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A3F1FDAA0CA497EC8E7C10485D7728 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests";
+			productName = "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests";
+			productReference = 04FBF40E0687A5EB68A2E3C78A1ACE08 /* Pods_TestingTJGHelloWorldFramework_TestingTJGHelloWorldFrameworkUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF3CECB4913D50B54ECF3D541284E3C6 /* Pods-TestingTJGHelloWorldFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7BC0B1B7186C4E88C3180FE6CBEBD5 /* Build configuration list for PBXNativeTarget "Pods-TestingTJGHelloWorldFrameworkTests" */;
+			buildPhases = (
+				A21595A9A9D83D84D81ED24ECDEFC842 /* Headers */,
+				1F836686891F714536E6D9E3ECC53778 /* Sources */,
+				DEA755EFA114720E53416613978D945C /* Frameworks */,
+				568ECB70350658DEE1D4B73223AC800E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A261E967094769B4F428D7BE6CE18DD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestingTJGHelloWorldFrameworkTests";
+			productName = "Pods-TestingTJGHelloWorldFrameworkTests";
+			productReference = E3DA070C8E6AA3E8EC7003C0C88D442C /* Pods_TestingTJGHelloWorldFrameworkTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5E0D5C6DFF173E8D50287E8562672AF /* Pods-TestingTJGHelloWorldFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3A944B5F92FFCD33BDE524D4295240 /* Build configuration list for PBXNativeTarget "Pods-TestingTJGHelloWorldFramework" */;
+			buildPhases = (
+				DD3B9F7AFA037A8109D06DCB03D72F36 /* Headers */,
+				BBB1F1D1E681987E1D96B3F9667BB52B /* Sources */,
+				D489533B1A37535D69975DD0D0724D7B /* Frameworks */,
+				84A0380C77AB25C09638492389762D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8BA2A642AADFC77D295A0364B149AD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestingTJGHelloWorldFramework";
+			productName = "Pods-TestingTJGHelloWorldFramework";
+			productReference = 2F64358B847EEA745F2EB7C2FF9099DD /* Pods_TestingTJGHelloWorldFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 85F75D79BEE2A7538075D910414659B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5E0D5C6DFF173E8D50287E8562672AF /* Pods-TestingTJGHelloWorldFramework */,
+				37F1B2D5F2D2D0B4F6C2852A738F0904 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests */,
+				AF3CECB4913D50B54ECF3D541284E3C6 /* Pods-TestingTJGHelloWorldFrameworkTests */,
+				150E0851C634CA1342CB8E9887F711F5 /* TJGHelloWorldFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24FD7D51CB1DD2FE1A586BFF8BCCF6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568ECB70350658DEE1D4B73223AC800E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A0380C77AB25C09638492389762D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0E67A8934D544AA447CBA7E78B9421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F836686891F714536E6D9E3ECC53778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D23E86EBD2F129D0BA675F973E06A0E /* Pods-TestingTJGHelloWorldFrameworkTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553441F49191ED391DC81FE49D546FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FC96C61AF9EE259C347EDA48A6FA51 /* Service.swift in Sources */,
+				CB12D5B4FDF7957B24FA2F7056C9ED35 /* TJGHelloWorldFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB1F1D1E681987E1D96B3F9667BB52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B604089DA47433D2DBD6085B3B2CF145 /* Pods-TestingTJGHelloWorldFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2AFD01B0C5B237C5702DB75F4E172A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F192DE10E1E828DD79E6174288D5D6 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A3F1FDAA0CA497EC8E7C10485D7728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TJGHelloWorldFramework;
+			target = 150E0851C634CA1342CB8E9887F711F5 /* TJGHelloWorldFramework */;
+			targetProxy = 63E07340108BA1D6A4E320BCD93732E3 /* PBXContainerItemProxy */;
+		};
+		A261E967094769B4F428D7BE6CE18DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestingTJGHelloWorldFramework";
+			target = E5E0D5C6DFF173E8D50287E8562672AF /* Pods-TestingTJGHelloWorldFramework */;
+			targetProxy = D9DC3A4E85A46E8AFE4FA1A89DFC253A /* PBXContainerItemProxy */;
+		};
+		C8BA2A642AADFC77D295A0364B149AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TJGHelloWorldFramework;
+			target = 150E0851C634CA1342CB8E9887F711F5 /* TJGHelloWorldFramework */;
+			targetProxy = 225844862F6C80B6FEF14BD722FC3451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015B337D08EA32D8616259ADB7AC7012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E8341DE5E18D6EDD18DFCCC7AE8ECB /* Pods-TestingTJGHelloWorldFrameworkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFrameworkTests/Pods-TestingTJGHelloWorldFrameworkTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFrameworkTests/Pods-TestingTJGHelloWorldFrameworkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38DDEB3E1DF30166FF0B82BA4E526EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3094BF1E63EC6F0AD4ED0592F2F2B9 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39A48520E2F87DACAFFFF394492CAFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4952FD968154C5A4B4270190591F1AD6 /* Pods-TestingTJGHelloWorldFramework.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFramework/Pods-TestingTJGHelloWorldFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFramework/Pods-TestingTJGHelloWorldFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		538805CFE4CBA1B2B600A7DB451F0045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2473B30AB76F95EB1367B81DF42C3C9C /* Pods-TestingTJGHelloWorldFramework.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFramework/Pods-TestingTJGHelloWorldFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFramework/Pods-TestingTJGHelloWorldFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A70DAB1F6471DB450A907ADDF65B6EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496F6BBA91481A14A9CDF541FD75074E /* Pods-TestingTJGHelloWorldFrameworkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFrameworkTests/Pods-TestingTJGHelloWorldFrameworkTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFrameworkTests/Pods-TestingTJGHelloWorldFrameworkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D82C50AAE02B5C6D2BA8875DF043AB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513901F20AFAFF05D834E3FB0A4498EA /* TJGHelloWorldFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TJGHelloWorldFramework/TJGHelloWorldFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TJGHelloWorldFramework/TJGHelloWorldFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TJGHelloWorldFramework/TJGHelloWorldFramework.modulemap";
+				PRODUCT_MODULE_NAME = TJGHelloWorldFramework;
+				PRODUCT_NAME = TJGHelloWorldFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3ACFB9261FE6140C94A533B1C6E4336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F1C2768699BCF8C03D26367D970C24 /* TJGHelloWorldFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TJGHelloWorldFramework/TJGHelloWorldFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TJGHelloWorldFramework/TJGHelloWorldFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TJGHelloWorldFramework/TJGHelloWorldFramework.modulemap";
+				PRODUCT_MODULE_NAME = TJGHelloWorldFramework;
+				PRODUCT_NAME = TJGHelloWorldFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF7960FB926F0432F5C905A849455DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03D63C8E564707D2D5601E3AF030DC2 /* Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests/Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FDA03F2E4596FF31BBB487AE04354ED /* Build configuration list for PBXNativeTarget "TJGHelloWorldFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82C50AAE02B5C6D2BA8875DF043AB17 /* Debug */,
+				E3ACFB9261FE6140C94A533B1C6E4336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B3A944B5F92FFCD33BDE524D4295240 /* Build configuration list for PBXNativeTarget "Pods-TestingTJGHelloWorldFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A48520E2F87DACAFFFF394492CAFC3 /* Debug */,
+				538805CFE4CBA1B2B600A7DB451F0045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D7BC0B1B7186C4E88C3180FE6CBEBD5 /* Build configuration list for PBXNativeTarget "Pods-TestingTJGHelloWorldFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015B337D08EA32D8616259ADB7AC7012 /* Debug */,
+				A70DAB1F6471DB450A907ADDF65B6EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58D5209728006CCFBDC484261C42884 /* Build configuration list for PBXNativeTarget "Pods-TestingTJGHelloWorldFramework-TestingTJGHelloWorldFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DDEB3E1DF30166FF0B82BA4E526EA6 /* Debug */,
+				FF7960FB926F0432F5C905A849455DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

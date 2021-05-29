@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestingTJGHelloWorldFramework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TestingTJGHelloWorldFramework
+    pod 'TJGHelloWorldFramework', 
+    :path => "/Users/gjamwal/Documents/MyLearning/CustomFrameworks/TJGHelloWorld/TJGHelloWorldFramework/TJGHelloWorldFramework"
+   
+
+  target 'TestingTJGHelloWorldFrameworkTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TestingTJGHelloWorldFrameworkUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,16 @@
+PODS:
+  - TJGHelloWorldFramework (1.0.0)
+
+DEPENDENCIES:
+  - TJGHelloWorldFramework (from `/Users/gjamwal/Documents/MyLearning/CustomFrameworks/TJGHelloWorld/TJGHelloWorldFramework/TJGHelloWorldFramework`)
+
+EXTERNAL SOURCES:
+  TJGHelloWorldFramework:
+    :path: "/Users/gjamwal/Documents/MyLearning/CustomFrameworks/TJGHelloWorld/TJGHelloWorldFramework/TJGHelloWorldFramework"
+
+SPEC CHECKSUMS:
+  TJGHelloWorldFramework: 9781e720a115f4866c6e28e3fdc16c5078fbbf90
+
+PODFILE CHECKSUM: bcf707752446fbe7b1cbe6fc8a640e7e3e7cea9b
+
+COCOAPODS: 1.10.1

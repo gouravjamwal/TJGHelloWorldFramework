@@ -1,0 +1,6 @@
+framework module TJGHelloWorldFramework {
+  umbrella header "TJGHelloWorldFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
